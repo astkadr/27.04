@@ -5,6 +5,7 @@ def divide(a, b):
     if b == 0: return "Ошибка"
     return a / b
 
+
 if __name__ == "__main__":
     print("1. Сложение, 2. Вычитание, 3. Умножение, 4. Деление")
     choice = input("Выбери номер операции: ")
